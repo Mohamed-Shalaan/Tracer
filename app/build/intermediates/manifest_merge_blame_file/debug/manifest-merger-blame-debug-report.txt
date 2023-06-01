@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tracer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+11-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:5-76
+11-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:22-73
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->[com.wdullaer:materialdatetimepicker:4.2.3] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1dfea2c3543a082884ae6c6ae60bd7dc\transformed\jetified-materialdatetimepicker-4.2.3\AndroidManifest.xml:26:5-66
+12-->[com.wdullaer:materialdatetimepicker:4.2.3] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1dfea2c3543a082884ae6c6ae60bd7dc\transformed\jetified-materialdatetimepicker-4.2.3\AndroidManifest.xml:26:22-63
+13
+14    <application
+14-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:5:5-36:19
+15        android:allowBackup="true"
+15-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\6b1ae75045d66cc3214811573e0aecab\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:7:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:8:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:9:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:10:9-35
+22        android:theme="@style/Theme.Tracer" >
+22-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:11:9-44
+23        <receiver android:name="com.allyants.notifyme.NotificationPublisher" />
+23-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:14:9-79
+23-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:14:19-77
+24        <receiver
+24-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:15:9-23:20
+25            android:name="com.allyants.notifyme.BootNotifyMe"
+25-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:15:19-68
+26            android:enabled="true"
+26-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:16:13-35
+27            android:exported="true" >
+27-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:16:13-36
+28            <intent-filter>
+28-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.BOOT_COMPLETED" />
+29-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:19:17-78
+29-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:19:25-76
+30
+31                <category android:name="android.intent.category.HOME" />
+31-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:20:17-72
+31-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:20:27-70
+32            </intent-filter>
+33        </receiver>
+34
+35        <activity
+35-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:26:9-32:20
+36            android:name="com.example.tracer.SplashActivity"
+36-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:26:20-50
+37            android:exported="true" >
+37-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:27:13-36
+38            <intent-filter>
+38-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:28:13-31:29
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:29:17-77
+39-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:29:27-74
+40
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:30:17-69
+41-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:30:25-66
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.example.tracer.MainActivity" />
+44-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:34:9-50
+44-->C:\Users\Public\Projects\Tracer3\Tracer3\app\src\main\AndroidManifest.xml:34:19-47
+45
+46        <receiver
+46-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:18:9-21:39
+47            android:name="com.allyants.notifyme.ActionReceiver"
+47-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:19:13-64
+48            android:enabled="true"
+48-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:20:13-35
+49            android:exported="true" />
+49-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:21:13-36
+50        <receiver
+50-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:22:9-25:39
+51            android:name="com.allyants.notifyme.DeletePendingIntent"
+51-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:23:13-69
+52            android:enabled="true"
+52-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:24:13-35
+53            android:exported="true" />
+53-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\1e5686eeab9a588470f932f3c25256cb\transformed\jetified-NotifyMe-1.0.1\AndroidManifest.xml:25:13-36
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\b34b0be6913464a58a013a81561054fb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\b34b0be6913464a58a013a81561054fb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+57            android:authorities="com.example.tracer.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\b34b0be6913464a58a013a81561054fb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\b34b0be6913464a58a013a81561054fb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\b34b0be6913464a58a013a81561054fb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\b34b0be6913464a58a013a81561054fb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\b34b0be6913464a58a013a81561054fb\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\eb34fad6f21273c54c93c0364829d6bb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\eb34fad6f21273c54c93c0364829d6bb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mohamed Salah\.gradle\caches\transforms-3\eb34fad6f21273c54c93c0364829d6bb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>
