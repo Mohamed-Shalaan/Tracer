@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tracer</string>
+    <string name="recent_tasks">Recent Tasks</string>
+    <string name="new_task">New Task</string>
+    <string name="save">Save</string>
+    <string name="date">2022/2/22</string>
+    <string name="time">00:00</string>
+</resources>

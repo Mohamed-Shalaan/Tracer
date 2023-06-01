@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#DB5760</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#F4A7A7</color>
+    <color name="lightgreen">#A7F4A7</color>
+    <color name="lightred">#DB5760</color>
+    <color name="lightgray">#C7C7C7</color>
+
+    <color name="greno">#55DD82</color>
+    <color name="redo">#DF6777</color>
+    <color name="blueo">#5577DD</color>
+
+
+
+</resources>
