@@ -32,7 +32,10 @@
         <img src="https://img.shields.io/github/commit-activity/w/Mohamed-Shalaan/Tracer" alt="commits" />
     </a>
 </div>
-       
+
+## :u6307: About the Project
+<h4 align="left"> Tracer was the end project of the ITI summer training camp on Android Mobile Development using Java (2 weeks - 60 hours ), the app is an implementation of the sections studied throughout the course, with an elegant design that perseveres both simplicity and functionality  </h4> 
+            
 ## :camera: Screenshots
        
 <table width="100%">
@@ -54,11 +57,7 @@
     </tr>
   </tbody>
 </table>
-       
-       
-## :u6307: About the Project
-<h4 align="left"> Tracer was the end project of the ITI summer training camp on Android Mobile Development using Java (4 weeks), the app is an implementation of the sections studied throughout the course, with an elegant design that perseveres both simplicity and functionality  </h4> 
-       
+                   
 ## :bookmark_tabs: Documentation
 <h4> As per instruction, this is a simple <a href="md/MD97_ProjectReport.pdf">Documentation</a> containing an analysis of all the classes and librarians used to craft the app. </h4>
        
