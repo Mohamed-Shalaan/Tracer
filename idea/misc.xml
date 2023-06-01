@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Public/Projects/Tracer3/Tracer3/app/src/main/res/drawable/add.xml" value="0.3277777777777778" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/Tracer3/app/src/main/res/drawable/ic_edit.xml" value="0.3277777777777778" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/Tracer3/app/src/main/res/drawable/notify.xml" value="0.3398148148148148" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/Tracer3/app/src/main/res/drawable/shape.xml" value="0.3482051282051282" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/Tracer3/app/src/main/res/drawable/strike.xml" value="0.909375" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/Tracer3/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/Tracer3/app/src/main/res/layout/new_task.xml" value="0.32382892057026474" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/Tracer3/app/src/main/res/layout/task_layout.xml" value="0.3950617283950617" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/drawable/add.xml" value="0.3482051282051282" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/drawable/ic_baseline_delete.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/drawable/ic_baseline_edit.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/drawable/shape.xml" value="0.3482051282051282" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/layout/activity_main.xml" value="0.3234375" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/layout/activity_splash.xml" value="0.3323076923076923" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/layout/new_task.xml" value="0.3323076923076923" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/layout/task_layout.xml" value="0.3323076923076923" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Public/Projects/Tracer3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.20208333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
