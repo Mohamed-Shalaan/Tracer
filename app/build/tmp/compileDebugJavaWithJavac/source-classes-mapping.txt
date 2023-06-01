@@ -1,0 +1,28 @@
+com/example/tracer/BuildConfig.java
+ com.example.tracer.BuildConfig
+com/example/tracer/Utils/DatabaseHandler.java
+ com.example.tracer.Utils.DatabaseHandler
+com/example/tracer/SplashActivity.java
+ com.example.tracer.SplashActivity
+com/example/tracer/LocalConfig.java
+ com.example.tracer.LocalConfig
+com/example/tracer/RecyclerItemTouchHelper.java
+ com.example.tracer.RecyclerItemTouchHelper
+ com.example.tracer.RecyclerItemTouchHelper$1
+ com.example.tracer.RecyclerItemTouchHelper$2
+com/example/tracer/DialogCloseListener.java
+ com.example.tracer.DialogCloseListener
+com/example/tracer/Adapters/ToDoAdapter.java
+ com.example.tracer.Adapters.ToDoAdapter
+ com.example.tracer.Adapters.ToDoAdapter$1
+ com.example.tracer.Adapters.ToDoAdapter$ViewHolder
+com/example/tracer/Model/ToDoModel.java
+ com.example.tracer.Model.ToDoModel
+com/example/tracer/AddNewTask.java
+ com.example.tracer.AddNewTask
+ com.example.tracer.AddNewTask$1
+ com.example.tracer.AddNewTask$2
+ com.example.tracer.AddNewTask$3
+com/example/tracer/MainActivity.java
+ com.example.tracer.MainActivity
+ com.example.tracer.MainActivity$1
